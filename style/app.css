@@ -56,6 +56,7 @@ body {
 .menu__link {
   text-align: center;
   transition: all ease 300ms;
+  color: var(--text-color);
 }
 .menu__link:hover {
   color: var(--primary-color);
@@ -65,7 +66,7 @@ body {
 }
 /* ==========>> Toggle Menu Style  <<==========*/
 .nav__toggle {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   width: 5.5rem;
