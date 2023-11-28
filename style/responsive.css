@@ -1,0 +1,146 @@
+@media screen and (max-width: 1600px) {
+  .home__image {
+    width: 50rem;
+    height: 50rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .home__image {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 5rem;
+  }
+  .menu__link {
+    font-size: 1.4rem;
+  }
+  .home__image {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  /* ========== Menu==========*/
+  .menu {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white-color);
+    opacity: 0;
+  }
+  .menu--open {
+    top: 100%;
+    opacity: 1;
+  }
+  .menu__items {
+    margin-left: 0;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  .menu__items:last-child {
+    margin-bottom: 1.5rem;
+  }
+  .nav__toggle-icon {
+    display: flex;
+  }
+  .cover {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 10%);
+    opacity: 0;
+    z-index: 40;
+  }
+  .cover--show {
+    display: block;
+    opacity: 1;
+  }
+    /* ========== Home==========*/
+  .home__wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .home__title {
+    font-size: 4rem;
+  }
+  .home__caption {
+    margin-bottom: 2.5rem;
+  }
+  .home__wrappers-link {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .home__link {
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+  .home__image {
+    margin: 0 auto;
+    border-width: 1.5rem;
+  }
+    /* ========== About Us==========*/
+    .about{
+      flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .about__links-wrapper{
+    flex-wrap: wrap;
+  }
+  .about__links{
+    flex-grow: 1;
+  }
+}
+@media screen and (min-width: 431px) and (max-width: 514px) {
+  .home {
+    height: 110rem;
+  }
+}
+@media screen and (max-width: 430px) {
+  .home__name {
+    font-size: 2rem;
+  }
+  .home__title {
+    font-size: 3rem;
+  }
+  .home__image {
+    border-width: 1rem;
+    width: 25rem;
+    height: 25rem;
+  }
+}
+@media screen and (max-width: 337px) {
+  .home__name {
+    font-size: 1.7rem;
+  }
+  .home__title {
+    font-size: 2.5rem;
+  }
+  .home__image {
+    border-width: 1rem;
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 304px) {
+  .home__image {
+    border-width: 1rem;
+    width: 15rem;
+    height: 15rem;
+  }
+}

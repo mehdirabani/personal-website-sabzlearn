@@ -1,0 +1,176 @@
+:root {
+  --red: #ff1744;
+  --lite-red: #ff5252;
+  --dark-red: #d50000;
+  --pink: #ff4081;
+  --lite-pink: #ff80ab;
+  --dark-pink: #f50057;
+  --blue: #2979ff;
+  --lite-blue: #40c4ff;
+  --dark-blue: #0d47a1;
+  --green: #00e676;
+  --lite-green: #69f0ae;
+  --dark-green: #1b5e20;
+  --lime: #eeff41;
+  --lite-lime: #e6ee9c;
+  --dark-lime: #afb42b;
+  --yellow: #ffff00;
+  --lite-yellow: #ffff8d;
+  --dark-yellow: #ffd600;
+}
+/* ========== Align Elements ==========*/
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: flex-end;
+}
+.justfiy-center {
+  justify-content: center;
+}
+.justfiy-start {
+  justify-content: flex-start;
+}
+.justfiy-end {
+  justify-content: flex-end;
+}
+/* ========== Overflow ==========*/
+.over-hidden {
+  overflow: hidden;
+}
+/* ========== Display ==========*/
+.hidden {
+  display: none;
+}
+.block {
+  display: block;
+}
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.grid {
+  display: grid;
+}
+/* ========== Background Color ==========*/
+.bg-red {
+  background: var(--red);
+}
+.bg-lite-red {
+  background: var(--lite-red);
+}
+.bg-dark-red {
+  background: var(--dark-red);
+}
+.bg-pink {
+  background: var(--pink);
+}
+.bg-lite-pink {
+  background: var(--lite-pink);
+}
+.bg-dark-pink {
+  background: var(--dark-pink);
+}
+.bg-blue {
+  background: var(--blue);
+}
+.bg-lite-blue {
+  background: var(--lite-blue);
+}
+.bg-dark-blue {
+  background: var(--dark-blue);
+}
+.bg-green {
+  background: var(--green);
+}
+.bg-lite-green {
+  background: var(--lite-green);
+}
+.bg-dark-green {
+  background: var(--dark-green);
+}
+.bg-lime {
+  background: var(--lime);
+}
+.bg-lite-lime {
+  background: var(--lite-lime);
+}
+.bg-dark-lime {
+  background: var(--dark-lime);
+}
+.bg-yellow {
+  background: var(--yellow);
+}
+.bg-lite-yellow {
+  background: var(--lite-yellow);
+}
+.bg-dark-yellow {
+  background: var(--dark-yellow);
+}
+/* ========== Color ==========*/
+.red {
+  color: var(--red);
+}
+.lite-red {
+  color: var(--lite-red);
+}
+.dark-red {
+  color: var(--dark-red);
+}
+.pink {
+  color: var(--pink);
+}
+.lite-pink {
+  color: var(--lite-pink);
+}
+.dark-pink {
+  color: var(--dark-pink);
+}
+.blue {
+  color: var(--blue);
+}
+.lite-blue {
+  color: var(--lite-blue);
+}
+.dark-blue {
+  color: var(--dark-blue);
+}
+.green {
+  color: var(--green);
+}
+.lite-green {
+  color: var(--lite-green);
+}
+.dark-green {
+  color: var(--dark-green);
+}
+.lime {
+  color: var(--lime);
+}
+.lite-lime {
+  color: var(--lite-lime);
+}
+.dark-lime {
+  color: var(--dark-lime);
+}
+.yellow {
+  color: var(--yellow);
+}
+.lite-yellow {
+  color: var(--lite-yellow);
+}
+.dark-yellow {
+  color: var(--dark-yellow);
+}
+/* ========== Distance Management ==========*/
+.p-0 {
+  padding: 0;
+}

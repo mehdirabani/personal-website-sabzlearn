@@ -1,0 +1,65 @@
+/* ========== Button Style ==========*/
+.btn {
+  width: 18rem;
+  height: 6rem;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  font-family: var(--primary-font-sb);
+  cursor: pointer;
+  transition: var(--primary-transition);
+}
+.btn--primary {
+  background: var(--primary-color);
+  box-shadow: 0 1.6rem 2.9rem rgba(11, 190, 173, 41%);
+}
+.btn--secondary {
+  background: var(--secondary-color);
+  box-shadow: 0 1.6rem 2.8rem rgba(245, 127, 23, 24%);
+}
+.btn--primary:hover {
+  background: #059b8c;
+}
+.btn--secondary:hover {
+  background: #cf680e;
+}
+/* ========== Title ==========*/
+.section__head {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-head__title {
+  color: var(--primary-color);
+  font-family: var(--primary-font-bold);
+  font-size: 4.5rem;
+  margin: 0;
+}
+.section-head__caption {
+  color: var(--text-color);
+  margin: 0.5rem 0 1.5rem 0;
+  word-spacing: 0.95rem;
+  letter-spacing: 0.3rem;
+}
+.section-head__line {
+  display: block;
+  width: 24rem;
+  height: 0.2rem;
+  background: var(--primary-color);
+  margin: 0 auto;
+  position: relative;
+}
+.section-head__line::before {
+  content: "";
+  position: absolute;
+  width: 3.9rem;
+  height: 1.1rem;
+  background: var(--primary-color);
+  border-radius: 5.5px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
