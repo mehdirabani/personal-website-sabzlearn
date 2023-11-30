@@ -111,3 +111,50 @@ body {
   width: 4rem;
   transform: translateY(1rem) rotate(45deg);
 }
+/* ========== Main Style  ==========*/
+.main {
+  padding: auto;
+}
+/* ========== Home Section Style  ==========*/
+.home {
+  margin-top: 5rem;
+}
+.home__wrapper {
+  display: flex;
+}
+.home__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.home__name {
+  color: var(--primary-color);
+  font-family: var(--primary-font-sb);
+  font-size: 2.4rem;
+}
+.home__name span {
+  color: var(--secondary-color);
+}
+.home__title {
+  color: var(--primary-color);
+  font-family: var(--primary-font-bold);
+  font-size: 5rem;
+}
+.home__caption {
+  opacity: 71%;
+}
+.home__link-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.home__link {
+  flex-shrink: 0;
+}
+.home__photo {
+  width: 55rem;
+  height: 55rem;
+  border-radius: 100%;
+  border: 2rem solid #fff;
+  box-shadow: var(--primary-shadow);
+  background: url("../assets/image/header-avatar.jpg") no-repeat top center;
+}
