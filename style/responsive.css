@@ -1,15 +1,24 @@
 @media screen and (max-width: 1600px) {
+  .home {
+    height: 75rem;
+  }
   .home__photo {
     width: 45rem;
     height: 45rem;
   }
 }
 @media screen and (max-width: 1400px) {
+  .home {
+    height: 70rem;
+  }
 }
 @media screen and (max-width: 1200px) {
   .home__photo {
     width: 40rem;
     height: 40rem;
+  }
+  .home {
+    height: 65rem;
   }
 }
 @media screen and (max-width: 992px) {
@@ -36,6 +45,9 @@
   .nav__toggle {
     display: flex;
   }
+  .home {
+    height: 55rem;
+  }
   .home__name {
     font-size: 2rem;
   }
@@ -49,6 +61,9 @@
   }
 }
 @media screen and (max-width: 768px) {
+    .home {
+    height: 85rem;
+  }
   .home__wrapper {
     flex-direction: column-reverse;
   }
