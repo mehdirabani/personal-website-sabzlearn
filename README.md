@@ -2,6 +2,10 @@
 
 Learning html & css 7 js at
 
+[live demo project](https://mehdirabani.github.io/personal-website-sabzlearn/)
+
+[Buy a course](https://sabzlearn.ir/course/advance-template-design-with-html-css-flexbox/#lessons)
+
 ## ![Html Css FlexBox](https://sabzlearn.ir/wp-content/uploads/2023/08/Com_template_html_css_flexbox-768x432.png)
 
 - html
