@@ -129,7 +129,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  text-align: center;
 }
 .home__name {
   color: var(--primary-color);
@@ -149,7 +148,6 @@ body {
 }
 .home__link-wrapper {
   display: flex;
-  justify-content: center;
   gap: 2rem;
 }
 .home__link {

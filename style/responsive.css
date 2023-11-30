@@ -36,6 +36,12 @@
   .nav__toggle {
     display: flex;
   }
+  .home__name {
+    font-size: 2rem;
+  }
+  .home__title {
+    font-size: 4rem;
+  }
   .home__photo {
     width: 30rem;
     height: 30rem;
@@ -46,6 +52,18 @@
   .home__wrapper {
     flex-direction: column-reverse;
   }
+  .home__content {
+    width: 100%;
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+  }
+  .home__link-wrapper {
+    flex-wrap: wrap;
+  }
+  .home__link {
+    flex-grow: 1;
+  }
   .home__photo {
     margin-right: auto;
   }
@@ -53,4 +71,10 @@
 @media screen and (max-width: 576px) {
 }
 @media screen and (max-width: 430px) {
+  .home__name {
+    font-size: 1.5rem;
+  }
+  .home__title {
+    font-size: 3rem;
+  }
 }
