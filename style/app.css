@@ -121,6 +121,8 @@ body {
 /* ========== Home Section Style  ==========*/
 .home {
   margin-top: 5rem;
+  height: 83rem;
+  background: url("../assets/svg/header-shape.svg") no-repeat bottom;
 }
 .home__wrapper {
   display: flex;
