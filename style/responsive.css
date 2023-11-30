@@ -1,8 +1,16 @@
 @media screen and (max-width: 1600px) {
+  .home__photo {
+    width: 45rem;
+    height: 45rem;
+  }
 }
 @media screen and (max-width: 1400px) {
 }
 @media screen and (max-width: 1200px) {
+  .home__photo {
+    width: 40rem;
+    height: 40rem;
+  }
 }
 @media screen and (max-width: 992px) {
   /* ==========  Menu  ==========*/
@@ -22,14 +30,25 @@
     border-bottom-right-radius: 2rem;
     transition: all ease 300ms;
   }
-  .menu--open{
+  .menu--open {
     top: 100%;
   }
   .nav__toggle {
     display: flex;
   }
+  .home__photo {
+    width: 30rem;
+    height: 30rem;
+    border-width: 1rem;
+  }
 }
 @media screen and (max-width: 768px) {
+  .home__wrapper {
+    flex-direction: column-reverse;
+  }
+  .home__photo {
+    margin-right: auto;
+  }
 }
 @media screen and (max-width: 576px) {
 }

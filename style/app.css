@@ -29,11 +29,13 @@
 body {
   color: var(--text-color);
   font-family: var(--primary-font);
+  overflow-x: hidden;
 }
 /* ========== Start Style Header ==========*/
 .header {
   background: var(--white-color);
   box-shadow: var(--header-shadow);
+  z-index: 50;
 }
 .nav {
   display: flex;
@@ -49,6 +51,7 @@ body {
 .menu {
   display: flex;
   gap: 2rem;
+  z-index: 50;
 }
 .menu__items {
   font-family: var(--primary-font-md);
@@ -126,6 +129,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  text-align: center;
 }
 .home__name {
   color: var(--primary-color);
@@ -145,6 +149,7 @@ body {
 }
 .home__link-wrapper {
   display: flex;
+  justify-content: center;
   gap: 2rem;
 }
 .home__link {
@@ -157,4 +162,5 @@ body {
   border: 2rem solid #fff;
   box-shadow: var(--primary-shadow);
   background: url("../assets/image/header-avatar.jpg") no-repeat top center;
+  margin-left: auto;
 }
