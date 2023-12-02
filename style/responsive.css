@@ -1,4 +1,5 @@
 @media screen and (max-width: 1600px) {
+  /* ========== HOME Style  ==========*/
   .home {
     height: 75rem;
   }
@@ -8,17 +9,19 @@
   }
 }
 @media screen and (max-width: 1400px) {
+  /* ========== HOME Style  ==========*/
   .home {
     height: 70rem;
   }
 }
 @media screen and (max-width: 1200px) {
+  /* ========== HOME Style  ==========*/
+  .home {
+    height: 65rem;
+  }
   .home__photo {
     width: 40rem;
     height: 40rem;
-  }
-  .home {
-    height: 65rem;
   }
 }
 @media screen and (max-width: 992px) {
@@ -45,6 +48,7 @@
   .nav__toggle {
     display: flex;
   }
+  /* ========== HOME Style  ==========*/
   .home {
     height: 55rem;
   }
@@ -61,7 +65,8 @@
   }
 }
 @media screen and (max-width: 768px) {
-    .home {
+  /* ========== HOME Style  ==========*/
+  .home {
     height: 85rem;
   }
   .home__wrapper {
@@ -86,6 +91,7 @@
 @media screen and (max-width: 576px) {
 }
 @media screen and (max-width: 430px) {
+  /* ========== HOME Style  ==========*/
   .home__name {
     font-size: 1.5rem;
   }
