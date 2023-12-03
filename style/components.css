@@ -43,12 +43,13 @@
 .section-sub-title {
   color: var(--text-color);
   word-spacing: 1rem;
+  letter-spacing: .7rem;
   font-size: 1.6rem;
   margin: 0;
 }
 .section-line {
   display: block;
-  width: 24rem;
+  width: 30rem;
   height: .3rem;
   background: var(--primary-color);
   border-radius: 10rem;
