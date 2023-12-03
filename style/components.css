@@ -25,41 +25,45 @@
 .btn--secondary:hover {
   background: #cf680e;
 }
-/* ========== Title ==========*/
+/* ========== Section Title ==========*/
 .section__head {
-  text-align: center;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin-bottom: 4rem;
+  align-items: center;
 }
-.section-head__title {
+.section-title {
   color: var(--primary-color);
   font-family: var(--primary-font-bold);
-  font-size: 4.5rem;
+  font-size: 4.8rem;
   margin: 0;
 }
-.section-head__caption {
+.section-sub-title {
   color: var(--text-color);
-  margin: 0.5rem 0 1.5rem 0;
-  word-spacing: 0.95rem;
-  letter-spacing: 0.3rem;
+  word-spacing: 1rem;
+  font-size: 1.6rem;
+  margin: 0;
 }
-.section-head__line {
+.section-line {
   display: block;
   width: 24rem;
-  height: 0.2rem;
+  height: .3rem;
   background: var(--primary-color);
-  margin: 0 auto;
+  border-radius: 10rem;
   position: relative;
 }
-.section-head__line::before {
+.section-line::after{
   content: "";
   position: absolute;
   width: 3.9rem;
   height: 1.1rem;
   background: var(--primary-color);
-  border-radius: 5.5px;
+  border-radius: 55rem;
   top: 0;
-  bottom: 0;
   left: 0;
+  bottom: 0;
   right: 0;
   margin: auto;
 }
