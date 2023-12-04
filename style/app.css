@@ -148,11 +148,13 @@ body {
 .home__caption {
   opacity: 71%;
 }
-.home__link-wrapper {
+.home__link-wrapper,
+.about__links-wrapper {
   display: flex;
   gap: 2rem;
 }
-.home__link {
+.home__link,
+.about__link {
   flex-shrink: 0;
 }
 .home__photo {
@@ -165,3 +167,45 @@ body {
   margin-left: auto;
 }
 /* ========== About Us Section Style  ==========*/
+.about-us {
+}
+.about {
+  background: var(--white-color);
+  display: flex;
+  box-shadow: var(--primary-shadow);
+}
+.about__cover {
+  flex-basis: 50%;
+}
+.about__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about__content {
+  flex-basis: 50%;
+  padding: 4rem;
+}
+.about__title {
+  font-family: var(--primary-font-sb);
+  font-size: 2.8rem;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+.about__description {
+  margin: 0;
+  margin-bottom: 10rem;
+}
+.about__list-title {
+  color: var(--primary-color);
+  font-family: var(--primary-font-sb);
+  font-size: 1.8rem;
+  margin: 0;
+  margin-bottom: 3rem;
+}
+.about__list {
+  margin: 0;
+  margin-bottom: 5rem;
+}
+.about-list__items {
+}

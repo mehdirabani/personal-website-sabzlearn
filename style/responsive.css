@@ -78,10 +78,12 @@
     align-items: center;
     text-align: center;
   }
-  .home__link-wrapper {
+  .home__link-wrapper,
+  .about__links-wrapper {
     flex-wrap: wrap;
   }
-  .home__link {
+  .home__link,
+  .about__link {
     flex-grow: 1;
   }
   .home__photo {
