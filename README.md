@@ -1,6 +1,6 @@
 # personal-website-sabzlearn
 
-Learning html & css 7 js at
+Learning html & css & js at
 
 [live demo project](https://mehdirabani.github.io/personal-website-sabzlearn/)
 
