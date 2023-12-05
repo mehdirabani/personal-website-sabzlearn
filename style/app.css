@@ -167,12 +167,11 @@ body {
   margin-left: auto;
 }
 /* ========== About Us Section Style  ==========*/
-.about-us {
-}
 .about {
   background: var(--white-color);
   display: flex;
   box-shadow: var(--primary-shadow);
+  margin-bottom: 5rem;
 }
 .about__cover {
   flex-basis: 50%;
@@ -194,18 +193,35 @@ body {
 }
 .about__description {
   margin: 0;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 .about__list-title {
   color: var(--primary-color);
   font-family: var(--primary-font-sb);
   font-size: 1.8rem;
   margin: 0;
-  margin-bottom: 3rem;
 }
 .about__list {
-  margin: 0;
   margin-bottom: 5rem;
+  margin-left: 1rem;
 }
 .about-list__items {
+  padding-left: 2.5rem;
+  position: relative;
+  margin-top: 1rem;
+}
+.about-list__items::after {
+  content: "";
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  background: var(--secondary-color);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.about__links-wrapper {
+  margin-top: 5rem;
 }
