@@ -30,6 +30,7 @@ body {
   color: var(--text-color);
   font-family: var(--primary-font);
   overflow-x: hidden;
+  background: #ccc;
 }
 /* ========== Start Style Header ==========*/
 .header {
