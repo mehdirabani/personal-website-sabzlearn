@@ -174,7 +174,7 @@ body {
   margin-bottom: 5rem;
 }
 .about__cover {
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 .about__image {
   width: 100%;
@@ -182,7 +182,7 @@ body {
   object-fit: cover;
 }
 .about__content {
-  flex-basis: 50%;
+  flex-basis: 60%;
   padding: 4rem;
 }
 .about__title {

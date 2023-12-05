@@ -23,6 +23,14 @@
     width: 40rem;
     height: 40rem;
   }
+  /* ==========  About Us  ==========*/
+
+  .about__cover {
+    flex-basis: 50%;
+  }
+  .about__content {
+    flex-basis: 50%;
+  }
 }
 @media screen and (max-width: 992px) {
   /* ==========  Menu  ==========*/
@@ -62,6 +70,13 @@
     width: 30rem;
     height: 30rem;
     border-width: 1rem;
+  }
+  /* ==========  About Us  ==========*/
+  .about {
+    flex-direction: column;
+  }
+  .about__links-wrapper {
+    justify-content: center;
   }
 }
 @media screen and (max-width: 768px) {
