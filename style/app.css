@@ -231,25 +231,33 @@ body {
 .service {
   color: var(--white-color);
   text-align: center;
-  padding: 15rem 4rem;
+  padding: 13rem 2rem;
+  position: relative;
+  z-index: 5;
 }
 .service--purple {
   background: #8540ff;
+  box-shadow: 0 0 35px rgba(118, 13, 255, 35%);
 }
 .service--yellow {
   background: #ffc50c;
+  box-shadow: 0 0 35px rgba(255, 197, 12, 35%);
 }
 .service--pink {
   background: #ec407a;
+  box-shadow: 0 0 35px rgba(236, 64, 122, 35%);
 }
 .service--orange {
   background: #ff6331;
+  box-shadow: 0 0 35px rgba(255, 99, 49, 35%);
 }
 .service--blue {
   background: #13b6ff;
+  box-shadow: 0 0 35px rgba(19, 182, 255, 35%);
 }
 .service--green {
   background: #49af46;
+  box-shadow: 0 0 35px rgba(73, 175, 70, 35%);
 }
 .service__icon {
 }
@@ -259,5 +267,13 @@ body {
   margin: 2rem 0;
 }
 .service__caption {
-margin: 0;
+  margin: 0;
+}
+.service__bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: -1;
 }
