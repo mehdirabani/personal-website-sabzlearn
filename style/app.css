@@ -30,7 +30,6 @@ body {
   color: var(--text-color);
   font-family: var(--primary-font);
   overflow-x: hidden;
-  background: #ccc;
 }
 /* ========== Start Style Header ==========*/
 .header {
@@ -227,3 +226,38 @@ body {
   margin-top: 5rem;
 }
 /* ========== services Section Style  ==========*/
+.services {
+}
+.service {
+  color: var(--white-color);
+  text-align: center;
+  padding: 15rem 4rem;
+}
+.service--purple {
+  background: #8540ff;
+}
+.service--yellow {
+  background: #ffc50c;
+}
+.service--pink {
+  background: #ec407a;
+}
+.service--orange {
+  background: #ff6331;
+}
+.service--blue {
+  background: #13b6ff;
+}
+.service--green {
+  background: #49af46;
+}
+.service__icon {
+}
+.service__title {
+  font-size: 2.4rem;
+  font-family: var(--primary-font-bold);
+  margin: 2rem 0;
+}
+.service__caption {
+margin: 0;
+}
