@@ -32,7 +32,8 @@
   align-items: center;
   text-align: center;
   gap: 2rem;
-  margin: 6rem 0;
+  margin-bottom: 6rem;
+  margin-top: 20rem;
 }
 .section-head__title {
   font-family: var(--primary-font-bold);

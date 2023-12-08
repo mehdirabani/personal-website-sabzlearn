@@ -30,6 +30,7 @@ body {
   color: var(--text-color);
   font-family: var(--primary-font);
   overflow-x: hidden;
+  background: #ccc;
 }
 /* ========== Start Style Header ==========*/
 .header {
@@ -171,7 +172,6 @@ body {
   background: var(--white-color);
   display: flex;
   box-shadow: var(--primary-shadow);
-  margin-bottom: 5rem;
 }
 .about__cover {
   flex-basis: 40%;
@@ -226,8 +226,6 @@ body {
   margin-top: 5rem;
 }
 /* ========== services Section Style  ==========*/
-.services {
-}
 .service {
   color: var(--white-color);
   text-align: center;
@@ -261,8 +259,6 @@ body {
   background: #49af46;
   box-shadow: 0 0 35px rgba(73, 175, 70, 35%);
 }
-.service__icon {
-}
 .service__title {
   font-size: 2.4rem;
   font-family: var(--primary-font-bold);
@@ -281,3 +277,4 @@ body {
   width: 100%;
   z-index: -1;
 }
+/* ========== About Us Section Style  ==========*/
