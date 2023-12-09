@@ -30,7 +30,7 @@ body {
   color: var(--text-color);
   font-family: var(--primary-font);
   overflow-x: hidden;
-  background: #ccc;
+  /* background: #ccc; */
 }
 /* ========== Start Style Header ==========*/
 .header {
@@ -278,3 +278,32 @@ body {
   z-index: -1;
 }
 /* ========== About Us Section Style  ==========*/
+.resume {
+  margin: 10rem 0;
+  background: var(--white-color);
+  box-shadow: var(--primary-shadow);
+}
+.resume__list {
+  background: var(--white-color);
+  box-shadow: var(--primary-shadow);
+  position: relative;
+  z-index: 40;
+}
+.resume__list::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.5rem;
+  height: 100%;
+  background: var(--primary-color);
+  z-index: -1;
+}
+.resume__item {
+}
+.resume__item--active {
+}
+.resume-item__icon {
+}
+.resume-item__text {
+}
