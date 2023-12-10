@@ -289,6 +289,7 @@ body {
   position: relative;
   z-index: 40;
   padding: 4rem 0.5rem;
+  overflow: hidden;
 }
 .resume__list::after {
   content: "";
@@ -300,10 +301,16 @@ body {
   background: var(--primary-color);
   z-index: -1;
 }
-.resume__item {
+.resume__item:not(:first-child) {
   margin-top: 3rem;
 }
 .resume__item--active {
+  color: var(--white-color);
+  background: var(--primary-color);
+  background-position: center;
+  width: 20rem;
+  height: 4rem;
+  border-radius:7rem;
 }
 .resume-item__icon {
   vertical-align: middle;
