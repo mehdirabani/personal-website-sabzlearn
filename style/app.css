@@ -278,3 +278,57 @@ body {
   z-index: -1;
 }
 /* ========== Resume Section Style  ==========*/
+.resume {
+  margin-top: 20rem;
+  box-shadow: var(--secondary-shadow);
+  padding: 10rem 0;
+  transform: skewy(-6deg);
+  background: var(--white-color);
+
+  margin-bottom: 10rem;
+}
+.resume__list {
+  background: var(--white-color);
+  box-shadow: var(--primary-shadow);
+  position: relative;
+  z-index: 5;
+}
+.resume__list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--primary-color);
+  width: 4rem;
+  z-index: -1;
+}
+.resume__item {
+}
+.resume__item--active {
+}
+.resume-item__icon {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem;
+}
+.resume-item__text {
+}
+.resume__content {
+  display: none;
+}
+.resume__content--show {
+  display: block;
+}
+.resume-content__item {
+}
+.resume-content__head {
+}
+.resume-content__title {
+}
+.resume-content__date {
+}
+.resume-content__subtitle {
+}
+.resume-content__description {
+}
