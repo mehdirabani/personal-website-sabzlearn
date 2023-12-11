@@ -306,7 +306,7 @@ body {
   width: 4rem;
   z-index: -1;
 }
-.resume__item {
+.resume-list__item {
   margin-bottom: 1rem;
   position: relative;
   display: flex;
@@ -314,10 +314,10 @@ body {
   padding: 1rem 0;
   cursor: pointer;
 }
-.resume__item:last-child {
+.resume-list__item:last-child {
   margin-bottom: 0;
 }
-.resume__item::before {
+.resume-list__item::before {
   content: "";
   position: absolute;
   top: 0;
@@ -329,10 +329,10 @@ body {
   z-index: -1;
   transition: all 0.2s ease-in;
 }
-.resume__item--active {
+.resume-list__item--active {
   color: var(--white-color);
 }
-.resume__item--active::before {
+.resume-list__item--active::before {
   max-width: 26rem;
   width: 100%;
 }
