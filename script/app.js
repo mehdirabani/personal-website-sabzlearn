@@ -9,9 +9,10 @@ navToggle.addEventListener("click", function () {
 
 resumeListItems.forEach((resumeListItem) => {
   resumeListItem.addEventListener("click", function () {
-    document
-      .querySelector(".resume-list__item--active")
-      .classList.remove("resume-list__item--active");
+    document.querySelector(".resume-list__item--active").classList.remove("resume-list__item--active");
+    document.querySelector(".resume__content--show").classList.remove("resume__content--show");
     this.classList.add("resume-list__item--active");
+    let contentid = this.getAttribute("deta-content-id");
+    document.querySelector(contentid).classList.add("resume__content--show");
   });
 });
