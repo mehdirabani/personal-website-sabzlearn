@@ -288,6 +288,7 @@ body {
   margin-bottom: 10rem;
 }
 .resume__list {
+    margin-right: 8rem;
   background: var(--white-color);
   box-shadow: var(--primary-shadow);
   position: relative;
@@ -329,10 +330,10 @@ body {
   width: 5.4rem;
   z-index: -1;
   transition: all 0.2s ease-in;
+  max-width: 29rem;
 }
 .resume-list__item--active {
   color: var(--white-color);
-  max-width: 26rem;
 }
 .resume-list__item--active::before {
   width: 100%;
