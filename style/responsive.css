@@ -78,6 +78,10 @@
   .about__links-wrapper {
     justify-content: center;
   }
+  /* ==========  Resume  ==========*/
+  .resume__list{
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   /* ========== HOME Style  ==========*/
