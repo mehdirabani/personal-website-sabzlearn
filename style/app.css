@@ -284,11 +284,9 @@ body {
   padding: 10rem 0;
   transform: skewy(-6deg);
   background: var(--white-color);
-
   margin-bottom: 10rem;
 }
 .resume__list {
-  margin-right: 8rem;
   background: var(--white-color);
   box-shadow: var(--primary-shadow);
   position: relative;
@@ -348,6 +346,9 @@ body {
   font-size: 1.8rem;
   margin-left: 2.5rem;
   transition: all 0.2s ease-in;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 /* ===================================== */
 .resume__content {

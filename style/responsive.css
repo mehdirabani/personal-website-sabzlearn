@@ -79,8 +79,34 @@
     justify-content: center;
   }
   /* ==========  Resume  ==========*/
-  .resume__list{
-    margin-right: 0;
+  .resume__list::before,
+  .resume-content__title::before,
+  .resume-list__item::before {
+    content: none;
+  }
+  .resume__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: auto;
+    height: 5rem;
+    overflow: scroll;
+    background: transparent;
+    box-shadow: none;
+  }
+  .resume-list__item {
+    padding: 0;
+  }
+  .resume-item__icon {
+    display: none;
+  }
+  .resume-item__text {
+    background: var(--primary-color);
+    margin: 0;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -108,8 +134,20 @@
   .home__photo {
     margin-right: auto;
   }
+  /* ==========  Resume  ==========*/
+  .resume-item__text {
+    font-size: 1.23rem;
+  }
 }
 @media screen and (max-width: 576px) {
+  /* ==========  Resume  ==========*/
+  .resume-item__text {
+    font-size: 1rem;
+  }
+  .resume__content {
+    border-left: none;
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 430px) {
   /* ========== HOME Style  ==========*/
