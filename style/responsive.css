@@ -108,6 +108,10 @@
     padding: 1rem 3rem;
     border-radius: 5rem;
   }
+  .resume__content {
+    border-left: none;
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 768px) {
   /* ========== HOME Style  ==========*/
@@ -134,20 +138,8 @@
   .home__photo {
     margin-right: auto;
   }
-  /* ==========  Resume  ==========*/
-  .resume-item__text {
-    font-size: 1.23rem;
-  }
 }
 @media screen and (max-width: 576px) {
-  /* ==========  Resume  ==========*/
-  .resume-item__text {
-    font-size: 1rem;
-  }
-  .resume__content {
-    border-left: none;
-    padding-left: 0;
-  }
 }
 @media screen and (max-width: 430px) {
   /* ========== HOME Style  ==========*/
