@@ -284,7 +284,6 @@ body {
   padding: 10rem 0;
   transform: skewy(-6deg);
   background: var(--white-color);
-  margin-bottom: 10rem;
 }
 .resume__list {
   background: var(--white-color);
@@ -407,4 +406,36 @@ body {
 }
 .resume-content__description {
   margin: 0;
+}
+/* ========== Portflio Section Style  ==========*/
+.portflio {
+  margin-top: 20rem;
+  margin-bottom: 10rem; /* Delete End Or Comment End  */
+}
+.portflio-list {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.portflio-list__item {
+  padding: 1.5rem 4rem;
+  border-radius: 4rem;
+}
+.portflio-list__item--active {
+  color: var(--white-color);
+  background: var(--primary-color);
+}
+.portflio-content {
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.portflio-content__image {
+}
+.swiper-pagination {
 }
