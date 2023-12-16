@@ -19,9 +19,11 @@ resumeListItems.forEach((resumeListItem) => {
   });
 });
 // slider
-const swiper = new swiper(".swiper", {
+const swiper = new Swiper(".swiper", {
+  // Optional parameters
   direction: "vertical",
   loop: true,
+  // If we need pagination
   pagination: {
     el: ".swiper-pagination",
   },

@@ -417,7 +417,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  /* gap: 3rem; */
 }
 .portflio-list__item {
   padding: 1.5rem 4rem;
@@ -428,14 +428,4 @@ body {
   background: var(--primary-color);
 }
 .portflio-content {
-}
-.swiper {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-.portflio-content__image {
-}
-.swiper-pagination {
 }
