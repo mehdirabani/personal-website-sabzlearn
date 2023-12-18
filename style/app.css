@@ -422,10 +422,31 @@ body {
 .portflio-list__item {
   padding: 1.5rem 4rem;
   border-radius: 4rem;
+  transition: background ease-in 0.2s;
 }
 .portflio-list__item--active {
   color: var(--white-color);
   background: var(--primary-color);
 }
 .portflio-content {
+}
+.swiper {
+}
+.swiper-wrapper {
+  margin-bottom: 5rem;
+}
+.swiper-slide {
+}
+.portflio__img {
+}
+.swiper-pagination {
+}
+.swiper-pagination-bullet {
+  width: 2.4rem !important;
+  height: 2.4rem !important;
+  background: #fff !important;
+  border: 0.4rem solid #bfbebe !important;
+}
+.swiper-pagination-bullet-active {
+  border-color: var(--primary-color) !important;
 }
