@@ -25,4 +25,18 @@ const swiper = new Swiper(".swiper", {
   pagination: {
     el: ".swiper-pagination",
   },
+  breakpoints: {
+    720: {
+      spaceBetween: 30,
+      slidesPerView: 2,
+    },
+    1200: {
+      spaceBetween: 30,
+      slidesPerView: 3,
+    },
+    1400: {
+      spaceBetween: 30,
+      slidesPerView: 4,
+    },
+  },
 });
