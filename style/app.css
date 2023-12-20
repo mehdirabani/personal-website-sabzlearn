@@ -415,14 +415,17 @@ body {
 .portflio-list {
   margin: 5rem 0;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   /* gap: 3rem; */
 }
 .portflio-list__item {
+  white-space: nowrap;
   padding: 1.5rem 4rem;
   border-radius: 4rem;
-  transition: background ease-in 0.2s;
+  transition: all ease-in 0.2s;
+  cursor: pointer;
 }
 .portflio-list__item--active {
   color: var(--white-color);
@@ -439,8 +442,6 @@ body {
 }
 .portflio__img {
   width: 100%;
-}
-.swiper-pagination {
 }
 .swiper-pagination-bullet {
   width: 2.4rem !important;
