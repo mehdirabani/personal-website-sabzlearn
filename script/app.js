@@ -18,6 +18,10 @@ resumeListItems.forEach((resumeListItem) => {
     document.querySelector(contentid).classList.add("resume__content--show");
   });
 });
+
+
+
+
 // slider
 const swiper = new Swiper(".swiper", {
   direction: "horizontal",
