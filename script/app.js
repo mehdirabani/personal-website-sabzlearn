@@ -1,6 +1,7 @@
 const navToggle = document.querySelector(".nav__toggle");
 const menuMobile = document.querySelector(".menu");
 const resumeListItems = document.querySelectorAll(".resume-list__item");
+const portflioList = document.querySelectorAll(".portflio-list__item");
 navToggle.addEventListener("click", function () {
   navToggle.classList.toggle("nav__toggle--open");
   menuMobile.classList.toggle("menu--open");
@@ -19,10 +20,8 @@ resumeListItems.forEach((resumeListItem) => {
   });
 });
 
-
-
-
 // slider
+// const sliderPallet
 const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,
