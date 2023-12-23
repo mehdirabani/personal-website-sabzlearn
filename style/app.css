@@ -464,3 +464,35 @@ body {
   transform: skewy(-6deg);
   background: var(--white-color);
 }
+.package {
+}
+.package__head {
+  background: var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  width: 37rem;
+  height: 17rem;
+}
+.package__type {
+  margin: 0;
+  font-family: var(--primary-font-sb);
+  font-size: 3.6rem;
+}
+.package__price {
+  font-family: var(--primary-font-sb);
+  font-size: 2.4rem;
+  margin: 1rem 0;
+}
+.package__filter {
+  margin: 0;
+}
+.package__body {
+  font-size: 1.6rem;
+}
+.package-options {
+}
+.package-options__list {
+}
