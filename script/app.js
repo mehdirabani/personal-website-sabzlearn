@@ -1,11 +1,14 @@
 const navToggle = document.querySelector(".nav__toggle");
 const menuMobile = document.querySelector(".menu");
 const resumeListItems = document.querySelectorAll(".resume-list__item");
-const portfolioListItems = document.querySelectorAll(".portfolio-list__item");
+const portflioListItems = document.querySelectorAll(".portflio-list__item");
 navToggle.addEventListener("click", function () {
   navToggle.classList.toggle("nav__toggle--open");
   menuMobile.classList.toggle("menu--open");
 });
+
+// resumeListItems
+
 resumeListItems.forEach((resumeListItem) => {
   resumeListItem.addEventListener("click", function () {
     document
@@ -20,20 +23,21 @@ resumeListItems.forEach((resumeListItem) => {
   });
 });
 
-portfolioListItems.forEach((portfolioListItem) => {
-  portfolioListItem.addEventListener("click", function () {
+// portflioListItems
+
+portflioListItems.forEach((portflioListItem) => {
+  portflioListItem.addEventListener("click", function () {
     document
-      .querySelector(".portfolio-list__item--active")
-      .classList.remove("portfolio-list__item--active");
+      .querySelector(".portflio-list__item--active")
+      .classList.remove("portflio-list__item--active");
     document
-      .querySelector(".portfolio-content--show")
-      .classList.remove("portfolio-content--show");
-    this.classList.add("portfolio-list__item--active");
-    let contentId = this.getAttribute("deta-content-id");
-    document.querySelector(contentId).classList.add("portfolio-content--show");
+      .querySelector(".portflio-content--show")
+      .classList.remove("portflio-content--show");
+    this.classList.add("portflio-list__item--active");
+    let contentid = this.getAttribute("deta-content-id");
+    document.querySelector(contentid).classList.add("portflio-content--show");
   });
 });
-
 
 
 // Slider
