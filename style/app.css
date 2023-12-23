@@ -456,3 +456,11 @@ body {
 .swiper-pagination-bullet-active {
   border-color: var(--primary-color) !important;
 }
+/* ========== priceong Section Style  ==========*/
+.priceong {
+  margin-top: 20rem;
+  box-shadow: var(--secondary-shadow);
+  padding: 10rem 0;
+  transform: skewy(-6deg);
+  background: var(--white-color);
+}
