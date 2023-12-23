@@ -1,7 +1,7 @@
 const navToggle = document.querySelector(".nav__toggle");
 const menuMobile = document.querySelector(".menu");
 const resumeListItems = document.querySelectorAll(".resume-list__item");
-const portflioList = document.querySelectorAll(".portflio-list__item");
+const portfolioListItems = document.querySelectorAll(".portfolio-list__item");
 navToggle.addEventListener("click", function () {
   navToggle.classList.toggle("nav__toggle--open");
   menuMobile.classList.toggle("menu--open");
@@ -20,8 +20,23 @@ resumeListItems.forEach((resumeListItem) => {
   });
 });
 
-// slider
-// const sliderPallet
+portfolioListItems.forEach((portfolioListItem) => {
+  portfolioListItem.addEventListener("click", function () {
+    document
+      .querySelector(".portfolio-list__item--active")
+      .classList.remove("portfolio-list__item--active");
+    document
+      .querySelector(".portfolio-content--show")
+      .classList.remove("portfolio-content--show");
+    this.classList.add("portfolio-list__item--active");
+    let contentId = this.getAttribute("deta-content-id");
+    document.querySelector(contentId).classList.add("portfolio-content--show");
+  });
+});
+
+
+
+// Slider
 const swiper = new Swiper(".swiper", {
   direction: "horizontal",
   loop: true,

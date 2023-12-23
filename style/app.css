@@ -432,13 +432,17 @@ body {
   background: var(--primary-color);
 }
 .portflio-content {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
 }
-.swiper {
+.portflio-content--show {
+  height: auto;
+  opacity: 1;
 }
 .swiper-wrapper {
   margin-bottom: 5rem;
-}
-.swiper-slide {
 }
 .portflio__img {
   width: 100%;
