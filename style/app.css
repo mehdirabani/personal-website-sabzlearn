@@ -465,6 +465,7 @@ body {
   background: var(--white-color);
 }
 .package {
+  margin-top: 5rem;
   box-shadow: var(--primary-shadow);
 }
 .package__head {
@@ -523,4 +524,14 @@ body {
   margin-bottom: 6rem;
 }
 .package-options-link--orange {
+  background: #f57f17;
+  box-shadow: 0 1.6rem 2.8rem rgba(245, 127, 23, 24%);
+}
+.package-options-link--purple {
+  background: #803afb;
+  box-shadow: 0 1.6rem 2.8rem rgba(128, 58, 251, 24%);
+}
+.package-options-link--pink {
+  background: #f5276c;
+  box-shadow: 0 1.6rem 2.8rem rgba(245, 39, 108, 24%);
 }
