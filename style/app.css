@@ -531,3 +531,34 @@ body {
   background: #f5276c;
   box-shadow: 0 1.6rem 2.8rem rgba(245, 39, 108, 24%);
 }
+/* ========== Contact us Section Style  ==========*/
+.contactus {
+  margin-bottom: 10rem;
+}
+.contactus__wrapper {
+  background: url(../assets/image/map.jpg);
+  height: 100rem;
+    padding: 1rem 0;
+}
+.contact__map {
+}
+.contact__form {
+  margin-top: 10rem;
+  width: 50%;
+  background: var(--white-color);
+  box-shadow: var(--secondary-shadow);
+}
+.contact__title {
+}
+.contact-form__main {
+}
+.contact__input {
+}
+.contact__input--textarea {
+}
+.btn {
+}
+.btn--primary {
+}
+.contact__submit {
+}
