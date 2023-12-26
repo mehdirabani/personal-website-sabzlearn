@@ -533,32 +533,52 @@ body {
 }
 /* ========== Contact us Section Style  ==========*/
 .contactus {
-  margin-bottom: 10rem;
+  margin-top: 5rem;
 }
 .contactus__wrapper {
-  background: url(../assets/image/map.jpg);
-  height: 100rem;
-    padding: 1rem 0;
+  background: url("../assets/image/map.jpg") no-repeat;
 }
-.contact__map {
-}
-.contact__form {
-  margin-top: 10rem;
-  width: 50%;
+.contactus__map {
+  width: 7.7rem;
+  height: 7.7rem;
+  border-radius: 100%;
+  box-shadow: var(--secondary-shadow);
   background: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactus__map-icon {
+}
+.contact {
+  background: var(--white-color);
+  width: 60%;
+  margin-left: auto;
+  padding: 4rem;
+  overflow: hidden;
   box-shadow: var(--secondary-shadow);
 }
 .contact__title {
+  color: var(--primary-color);
+  font-family: var(--primary-font-bold);
+  font-size: 3.6rem;
+  margin: 0;
 }
-.contact-form__main {
+.contact__form {
+  display: flex;
+  flex-direction: column;
+
 }
 .contact__input {
+  box-shadow: var(--primary-shadow);
+  margin-top: 1rem;
+  line-height: 3rem;
+  border-radius: 1rem;
+  border: 0;
+  padding: 1rem;
+  background: var(--white-color);
 }
-.contact__input--textarea {
-}
-.btn {
-}
-.btn--primary {
-}
-.contact__submit {
+.contact__link {
+  margin-top: 5rem;
+  width: 100%;
 }
